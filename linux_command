@@ -68,3 +68,5 @@ rpm - Package manager for handling .rpm packages.
 9. User and Group Management
 useradd - Create a new user.
 passwd - Change a user’s password.
+
+clear - clear text
