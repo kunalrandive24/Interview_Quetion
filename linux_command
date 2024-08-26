@@ -1,0 +1,70 @@
+LINUX commands.
+
+1. File and Directory Management
+ls - List files and directories in the current directory.
+cd - Change the current directory.
+pwd - Print the current working directory.
+mkdir - Create a new directory.
+rmdir - Remove an empty directory.
+rm - Remove files or directories.
+cp - Copy files or directories.
+mv - Move or rename files or directories.
+touch - Create a new empty file or update the timestamp of an existing file.
+find - Search for files and directories.
+
+2. File Viewing and Editing
+cat - Concatenate and display the content of files.
+less - View the content of a file one screen at a time.
+more - Similar to less, view the content of a file.
+head - Display the first few lines of a file.
+tail - Display the last few lines of a file.
+nano - A simple text editor.
+vi or vim - A more advanced text editor.
+
+3. File Permissions and Ownership
+chmod - Change file permissions.
+chown - Change file owner and group.
+chgrp - Change group ownership of files and directories.
+
+4. File Compression and Archiving
+tar - Archive files (tarball).
+gzip - Compress files using the gzip algorithm.
+gunzip - Decompress files compressed with gzip.
+zip - Compress files into a ZIP archive.
+unzip - Extract files from a ZIP archive.
+
+5. System Information and Monitoring
+uname - Display system information.
+top - Display real-time system information and process monitoring.
+htop - An improved version of top with a more user-friendly interface.
+df - Display disk space usage.
+du - Estimate file and directory space usage.
+free - Display memory usage.
+uptime - Show how long the system has been running.
+ps - Display information about running processes.
+kill - Terminate a process by PID.
+killall - Terminate all processes with a specific name.
+
+
+6. Networking
+ping - Send ICMP echo requests to network hosts.
+ifconfig - Display or configure network interface parameters.
+ip - Show/manipulate routing, devices, policy routing, and tunnels.
+netstat - Display network connections, routing tables, and interface statistics.
+ss - Display socket statistics (a modern replacement for netstat).
+curl - Transfer data from or to a server using various protocols.
+wget - Download files from the internet.
+
+7. Package Management (Debian-based)
+apt-get - Command-line tool for handling packages (install, update, remove).
+apt - A more user-friendly command-line interface for apt-get.
+dpkg - Package manager for Debian systems (install, remove, and manage .deb packages).
+
+8. Package Management (Red Hat-based)
+yum - Package manager for handling packages in Red Hat-based distributions.
+dnf - Next-generation package manager for Red Hat-based distributions, successor to yum.
+rpm - Package manager for handling .rpm packages.
+
+9. User and Group Management
+useradd - Create a new user.
+passwd - Change a user’s password.
